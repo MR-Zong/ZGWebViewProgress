@@ -23,6 +23,7 @@
     
     UIView *contentView = [[UIView alloc] init];
     contentView.frame = CGRectMake(10, 64, 350, 250);
+    
     ZGWebView *webView = [[ZGWebView alloc] init];
     webView.frame = contentView.bounds;
     // 一定要设置代理

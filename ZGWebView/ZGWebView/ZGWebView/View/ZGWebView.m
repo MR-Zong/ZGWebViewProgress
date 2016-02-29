@@ -25,7 +25,7 @@
 {
     
     CGFloat progressBarHeight = 2.f;
-    CGRect barFrame = CGRectMake(0, 0, self.superview.bounds.size.width, progressBarHeight);
+    CGRect barFrame = CGRectMake(0, 0, self.bounds.size.width, progressBarHeight);
     _progressView = [[NJKWebViewProgressView alloc] initWithFrame:barFrame];
     _progressView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
     [self addSubview:_progressView];
