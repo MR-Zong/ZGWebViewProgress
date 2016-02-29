@@ -7,6 +7,8 @@
 //
 
 #import "ZGWebView.h"
+#import "NJKWebViewProgressView.h"
+#import "NJKWebViewProgress.h"
 
 @interface ZGWebView () <NJKWebViewProgressDelegate>
 

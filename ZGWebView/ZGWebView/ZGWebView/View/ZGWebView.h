@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJKWebViewProgressView.h"
-#import "NJKWebViewProgress.h"
 
 @interface ZGWebView : UIWebView
 
